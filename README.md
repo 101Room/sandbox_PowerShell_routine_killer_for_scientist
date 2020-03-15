@@ -11,5 +11,5 @@ or write in code that this time you allow scripts. You could open `cmd` (crtl+R)
 
 this will allow to run script this time. (It more safely tnan cange secure policy.)
 
-Or you could use `powershell -ExecutionPolicy Bypass` and visit your directory. You could also just put it in `C\:Users\YourName ` 
-PowerShell then could find it atomatically only with name: `powershell -ExecutionPolicy Bypass -File script.ps1 `.
+Or you could use `powershell -ExecutionPolicy Bypass` and visit your directory in PowerShell. You could also just put it in 
+`C\:Users\YourName ` PowerShell then could find it atomatically only with name: `powershell -ExecutionPolicy Bypass -File script.ps1 `.
