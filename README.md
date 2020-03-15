@@ -7,8 +7,9 @@ Let me introduce to you the variant with LAMMPS conveyor (see the path).
 PowerShell as default don't let you run scripts if you are not a server. You should or change security settings about this 
 or write in code that this time you allow scripts. You could open `cmd` (crtl+R) and insert command with policy and script adress:
 
-`powershell -ExecutionPolicy Bypass -File C:\MyNumericalSimulation\LAMMPS\crack\script.ps1 `
+`powershell -ExecutionPolicy Bypass -File C:\MyScripts\script.ps1 `
 
 this will allow to run script this time. (It more safely tnan cange secure policy.)
 
-Or you could use `powershell -ExecutionPolicy Bypass` and visit your directory.
+Or you could use `powershell -ExecutionPolicy Bypass` and visit your directory. You could also just put it in `C\:Users\YourName ` 
+PowerShell then could find it atomatically only with name: `powershell -ExecutionPolicy Bypass -File script.ps1 `.
