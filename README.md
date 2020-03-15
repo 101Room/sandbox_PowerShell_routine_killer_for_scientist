@@ -14,4 +14,4 @@ this will allow to run script this time. (It more safely tnan cange secure polic
 Or you could use `powershell -ExecutionPolicy Bypass` and visit your directory in PowerShell. You could also just put it in 
 `C\:Users\YourName ` PowerShell then could find it atomatically only with name:
 
-`powershell -ExecutionPolicy Bypass -File script.ps1 `.
+`powershell -ExecutionPolicy Bypass -File script.ps1 `
