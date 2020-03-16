@@ -3,8 +3,8 @@ I take for example `in.crack`. You can look at this file and see that there enab
 ("If you uncomment the dump image line(s) in the input script a series of JPG images will be produced by the run" 
 it is from LAMMPS web-manual).
 
-For example you going to change the `mass		1` from `1.0` to `100` with 11 steps 
-(1, 10, 20 ... 80, 90, 100) and save each results in folder with name like `mass1_1`, `mass1_10` etc.
+For example you going to change the `mass		1` from `50.0` to `100.0` with 6 steps 
+(50, 60, 70, 80, 90, 100) and save each results in folder with name like `mass1_50`, `mass1_60` etc.
 
 Results I mean: 
 - images
